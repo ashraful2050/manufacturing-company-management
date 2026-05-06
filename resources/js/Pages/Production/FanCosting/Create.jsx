@@ -236,7 +236,6 @@ export default function Create({ templates, nextNumber }) {
                             Amount = Qty × Unit Price × (1 + Appre%)
                         </span>
                     </div>
-                    </div>
                     <div className="overflow-x-auto">
                         <table className="w-full text-sm">
                             <thead className="bg-gray-50 border-b border-gray-200 text-xs">
@@ -462,7 +461,10 @@ export default function Create({ templates, nextNumber }) {
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td colSpan={11} className="pt-4 pb-2 text-right">
+                                    <td
+                                        colSpan={11}
+                                        className="pt-4 pb-2 text-right"
+                                    >
                                         <button
                                             type="button"
                                             onClick={addItem}
@@ -472,7 +474,6 @@ export default function Create({ templates, nextNumber }) {
                                         </button>
                                     </td>
                                 </tr>
-
                             </tfoot>
                         </table>
                     </div>
